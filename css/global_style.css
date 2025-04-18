@@ -103,7 +103,16 @@ a:active {
   text-decoration: none;
 }
 
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 30px;
+}
+
 .nav__link {
+  position: relative;
+  z-index: 50;
   font-size: 16px;
   font-style: italic;
   line-height: 150%;
@@ -202,6 +211,7 @@ a:active {
 
 .social__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
 }
 
